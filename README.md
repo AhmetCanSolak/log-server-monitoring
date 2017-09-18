@@ -9,6 +9,7 @@ Project implemented as two separate parts.
 
 ## How to Run?:
 -Start with installing dependencies with install.sh
+
 -Run the program with run.sh
 
 Or you can check directly the result from [sample report](http://www.cansolak.com/log-server-monitor/results/report/report.html).
