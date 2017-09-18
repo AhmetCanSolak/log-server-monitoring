@@ -12,7 +12,7 @@ Project implemented as two separate parts.
 
 -Run the program with run.sh
 
-Or you can check directly the result from [sample report](http://www.cansolak.com/log-server-monitor/results/report/report.html).
+Or you can check directly the result from [sample report](http://www.cansolak.com/log-server-monitoring/results/report/report.html).
 
 System Used in development:
 
