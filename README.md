@@ -24,28 +24,21 @@ Dependencies:
 * Matplotlib
 
 ## File Structure
-`
+
+```
 ├── data
 ├── lib
-
 │   ├── libpqxx-4.0.1+dfsg3
-
 │   └── matplotlib
-
 ├── results
-
 │   ├── data
-
 │   ├── images
-
 │   └── report
-
 └── src
-
     ├── cc
-    
     └── py
-`
+
+```
 
 ## Further Ideas:
 -Bulk insert implementation for commitToDB function to have better performance in populating database.
