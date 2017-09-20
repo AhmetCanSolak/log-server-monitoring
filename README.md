@@ -1,18 +1,14 @@
-# Log Server Monitoring
-A sample program to parse and visualize important figures from nginx logs.
-
-## Welcome to my implementation for the Log Parsing Project!
+# Nginx Log Server Monitoring
+A sample program to parse and visualize important figures from nginx logs. [Demo report](http://www.cansolak.com/nginx-log-server-monitoring/results/report/report.html).
 
 Project implemented as two separate parts.
 1) Read, parse, process and append the each log to the DB. This part is implemented in C++.
 2) Fetch the relevant information from DB and generate HTML report with related figures and visualizations. This part is implemented in Python.
 
-## How to Run?:
--Start with installing dependencies with install.sh
+## Usage
+-Install dependencies with `sh install.sh`
 
--Run the program with run.sh
-
-Or you can check directly the result from [sample report](http://www.cansolak.com/log-server-monitoring/results/report/report.html).
+-Run the program with `sh run.sh`
 
 System Used in development:
 
@@ -27,8 +23,8 @@ Dependencies:
 * Psycopg2
 * Matplotlib
 
-## File Structure:
---->data/
+## File Structure
+`--->data/
 
 ------->nginx.access.log*                        -You should put your data file in here with this name given
 
@@ -76,7 +72,7 @@ information gathered from the log is in them
 ->overview.txt
 
 ->run.sh
-
+`
 
 ## Further Ideas:
 -Bulk insert implementation for commitToDB function to have better performance in populating database.
@@ -88,17 +84,13 @@ information gathered from the log is in them
 -Reading files in parallel :)
 
 
-## References:
-* https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
-* https://www.tutorialspoint.com/postgresql/postgresql_c_cpp.htm
-* https://www.tutorialspoint.com/postgresql/postgresql_python.htm
-* https://github.com/BlackrockDigital/startbootstrap-one-page-wonder
+## References
 
-## Copyright Warning
+* [PostgreSQL tutorial of Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
+* [C/C++ adaptor tutorial of Tutorials Point](https://www.tutorialspoint.com/postgresql/postgresql_c_cpp.htm)
+* [Python adaptor tutorial of Tutorials Point](https://www.tutorialspoint.com/postgresql/postgresql_python.htm)
+* [One Page Wonder Bootstrap Template](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder)
+
+## Copyright
 
 All data and logo used to demonstrate sample report is provided by [Er Stream CDN Company](http://www.erstream.com/).
-
-## Author:
-Ahmet Can Solak
-
-Istanbul, Turkey - June 2017
