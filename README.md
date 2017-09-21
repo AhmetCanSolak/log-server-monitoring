@@ -6,9 +6,9 @@ Project implemented as two separate parts.
 2) Fetch the relevant information from DB and generate HTML report with related figures and visualizations. This part is implemented in Python.
 
 ## Usage
--Install dependencies with `sh install.sh`
+- Install dependencies with `sh install.sh`
 
--Run the program with `sh run.sh`
+- Run the program with `sh run.sh`
 
 System Used in development:
 
@@ -41,13 +41,13 @@ Dependencies:
 ```
 
 ## Further Ideas:
--Bulk insert implementation for the commitToDB function to have better performance in populating a database.
+- Bulk insert implementation for the commitToDB function to have better performance in populating a database.
 
--Trying to use getchar_unlocked() for a better reading performance, in case we do not care thread safety.
+- Trying to use getchar_unlocked() for a better reading performance, in case we do not care thread safety.
 
--Trying to use a read buffer for a better general performance
+- Trying to use a read buffer for a better general performance
 
--Reading files in parallel :)
+- Reading files in parallel :)
 
 
 ## References
