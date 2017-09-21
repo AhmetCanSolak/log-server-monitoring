@@ -1,5 +1,5 @@
 # Nginx Log Server Monitoring
-A sample program to parse and visualize important figures from nginx logs. [Demo report](http://www.cansolak.com/nginx-log-server-monitoring/results/report/report.html).
+A sample program to parse and visualize important figures from nginx logs. [Here is a demo](http://www.cansolak.com/nginx-log-server-monitoring/results/report/report.html).
 
 Project implemented as two separate parts.
 1) Read, parse, process and append the each log to the DB. This part is implemented in C++.
@@ -41,7 +41,7 @@ Dependencies:
 ```
 
 ## Further Ideas:
--Bulk insert implementation for commitToDB function to have better performance in populating database.
+-Bulk insert implementation for the commitToDB function to have better performance in populating a database.
 
 -Trying to use getchar_unlocked() for a better reading performance, in case we do not care thread safety.
 
